@@ -2,15 +2,37 @@
 import random
 
 word = random.choice(['python', 'java', 'kotlin', 'javascript'])
-hidden_word = word[:3] + '-' * (len(word)-3)
-# for i in range(len(word)):
-#     if i < 3:
-#         hidden_word += word[i]
-#     else:
-#         hidden_word += '-'
+hidden_word = '-' * (len(word))
+show_word = list(hidden_word)
+counter = 0
 print('H A N G M A N')
-guess_word = input(f'Guess the word {hidden_word}:')
-if guess_word == word:
+print()
+while counter < 8 and word != ''.join(show_word):
+    print(''.join(show_word))
+    guess_letter = input(f'Input a letter: ')
+    if guess_letter in word:
+        if guess_letter in show_word:
+            print('No improvements')
+            counter += 1
+            if counter < 8:
+                print()
+        else:
+            for p in range(len(word)):
+                if guess_letter == word[p]:
+                    show_word[p] = guess_letter
+            if counter < 8:
+                print()
+
+    else:
+        print('No such letter in the word')
+        counter += 1
+        if counter < 8:
+            print()
+
+if ''.join(show_word) == word:
+    print()
+    print(''.join(show_word))
+    print('You guessed the word!')
     print('You survived!')
 else:
     print('You are hanged!')
