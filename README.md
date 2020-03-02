@@ -5,4 +5,4 @@
 - Atualmente fazendo o projeto Tic-Tac-Toe status: 2/5
 
 
-# - `Todos da JetBrains Academy` (https://hyperskill.org/)
+# `Todos da JetBrains Academy` (https://hyperskill.org/)
