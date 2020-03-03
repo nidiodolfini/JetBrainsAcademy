@@ -1,26 +1,28 @@
-# write your code here
-# position = input()
-# M = [['1', 'X', 'X'], ['4', '4', '4'], [7, 8, 9]]
 entrada = input('Enter cells: ').replace('_', ' ')
 
 M = [[entrada[6], entrada[3], entrada[0]], [entrada[7], entrada[4], entrada[1]], [entrada[8], entrada[5], entrada[2]]]
-
-# print(int(aux[0])-1)
-# print(int(aux[1])-1)
-# print(M[int(aux[0]) - 1][int(aux[1]) - 1] )
-# M[int(aux[0]) - 1][int(aux[1]) - 1] = 'X'
 print('---------')
 print(f'| {M[0][2]} {M[1][2]} {M[2][2]} |')
 print(f'| {M[0][1]} {M[1][1]} {M[2][1]} |')
 print(f'| {M[0][0]} {M[1][0]} {M[2][0]} |')
 print('---------')
-
-aux = input('Enter the coordinates: ').split(' ')
-if M[int(aux[0]) - 1][int(aux[1]) - 1] == ' ':
-    M[int(aux[0]) - 1][int(aux[1]) - 1] = 'X'
-else:
-    print('This cell is occupied! Choose another one!')
+teste = True
+while teste:
     aux = input('Enter the coordinates: ').split(' ')
+    if not aux[0].isdigit():
+        print('You should enter numbers!')
+        teste = True
+    elif int(aux[0]) > 3 or int(aux[1]) > 3:
+            print('Coordinates should be from 1 to 3!')
+            # aux = input('Enter the coordinates: ').split(' ')
+            teste = True
+    elif M[int(aux[0]) - 1][int(aux[1]) - 1] != ' ':
+            print('This cell is occupied! Choose another one!')
+            # aux = input('Enter the coordinates: ').split(' ')
+            teste = True
+    elif M[int(aux[0]) - 1][int(aux[1]) - 1] == ' ':
+            M[int(aux[0]) - 1][int(aux[1]) - 1] = 'X'
+            teste = False
 print('---------')
 print(f'| {M[0][2]} {M[1][2]} {M[2][2]} |')
 print(f'| {M[0][1]} {M[1][1]} {M[2][1]} |')
