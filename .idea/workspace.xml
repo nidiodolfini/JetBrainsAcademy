@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232343c1-6510-43b2-8a59-00ee5dc2eb0f" name="Default Changelist" comment="" />
+    <list default="true" id="232343c1-6510-43b2-8a59-00ee5dc2eb0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Credit Calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../descubra-o-python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -102,6 +104,7 @@
       <workItem from="1582831841431" duration="748000" />
       <workItem from="1582892933677" duration="16000" />
       <workItem from="1583872228457" duration="103000" />
+      <workItem from="1583872384631" duration="32000" />
     </task>
     <servers />
   </component>
@@ -109,10 +112,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-583" y="227" key="FileChooserDialogImpl" timestamp="1582892948359">
+    <state x="-583" y="227" key="FileChooserDialogImpl" timestamp="1583872415106">
       <screen x="-1600" y="0" width="1600" height="860" />
     </state>
-    <state x="-583" y="227" key="FileChooserDialogImpl/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1582892948359" />
+    <state x="-583" y="227" key="FileChooserDialogImpl/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1583872415106" />
     <state x="1220" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582743976460" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1582836419068">
       <screen x="-1600" y="0" width="1600" height="860" />
