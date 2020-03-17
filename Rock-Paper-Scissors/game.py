@@ -10,7 +10,7 @@ lista = file.read().split('\n')
 for v,i in enumerate(lista):
     if len(i) > 1:
         player["name"], player["point"] = i.split(" ")
-        print(player["name"], player["point"])
+        # print(player["name"], player["point"])
         rating.append(player.copy())
         player.clear()
 
