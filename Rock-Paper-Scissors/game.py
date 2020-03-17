@@ -1,5 +1,6 @@
 # Write your code here
 from random import choice
+
 jokenpo = ''
 rating = []
 player = {}
@@ -14,6 +15,31 @@ for v,i in enumerate(lista):
         rating.append(player.copy())
         player.clear()
 
+def default_game():
+    global point
+    while True:
+        jokenpo = input(' ')
+        computer = choice(['rock', 'scissors', 'paper'])
+
+        if jokenpo == "!exit":
+            break
+        if jokenpo == computer:
+            print(f'There is a draw ({computer})')
+            point += 50
+        elif jokenpo == 'scissors' and computer == 'paper':
+            print(f'Well done. Computer chose {computer} and failed')
+            point += 100
+        elif jokenpo == 'paper' and computer == 'rock':
+            print(f'Well done. Computer chose {computer} and failed')
+            point += 100
+        elif jokenpo == 'rock' and computer == 'scissors':
+            print(f'Well done. Computer chose {computer} and failed')
+            point += 100
+        elif jokenpo == "!rating":
+            print(f'Your rating: {point}')
+        else:
+            print(f'Sorry, but computer chose {computer}')
+    print('Bye!')
 
 file.close()
 # print(len(lista))
@@ -36,25 +62,52 @@ for i in range(len(rating)):
         player.clear()
         break
 print(f'Hello, {name}')
+options = input().split(',')
+print("Okay, let's start")
+if len(options) < 2:
+    default_game()
+# print(options)
+options_one = options[:round(len(options)/2+0.5)]
+options_two = options[round(len(options)/2+0.5):]
+# print(options_one)
+# print(options_two)
 while True:
-    computer = choice(['rock', 'scissors', 'paper'])
+    computer = choice(options)
+    # print(computer)
     jokenpo = input(' ')
     if jokenpo == "!exit":
         break
     if jokenpo == computer:
         print(f'There is a draw ({computer})')
         point += 50
-    elif jokenpo == 'scissors' and computer == 'paper':
-        print(f'Well done. Computer chose {computer} and failed')
-        point += 100
-    elif jokenpo == 'paper' and computer == 'rock':
-        print(f'Well done. Computer chose {computer} and failed')
-        point += 100
-    elif jokenpo == 'rock' and computer == 'scissors':
-        print(f'Well done. Computer chose {computer} and failed')
-        point += 100
-    elif jokenpo == "!rating":
+    if jokenpo == "!rating":
         print(f'Your rating: {point}')
+    elif jokenpo in options_one and computer in options_one:
+        # print('options one')
+        if options_one.index(jokenpo) > options_one.index(computer):
+            print(f'Well done. Computer chose {computer} and failed')
+            point += 100
+        else:
+            print(f'Sorry, but computer chose {computer}')
+    elif jokenpo in options_two and computer in options_two:
+        # print("options two")
+        if options_two.index(jokenpo) > options_two.index(computer):
+            print(f'Well done. Computer chose {computer} and failed')
+            point += 100
+        else:
+            print(f'Sorry, but computer chose {computer}')
+    elif jokenpo in options_one and computer in options_two:
+        # print('options one and two')
+        print(f'Well done. Computer chose {computer} and failed')
+        point += 100
+
+    # elif jokenpo == 'paper' and computer == 'rock':
+    #     print(f'Well done. Computer chose {computer} and failed')
+    #     point += 100
+    # elif jokenpo == 'rock' and computer == 'scissors':
+    #     print(f'Well done. Computer chose {computer} and failed')
+    #     point += 100
+
     else:
         print(f'Sorry, but computer chose {computer}')
 print('Bye!')

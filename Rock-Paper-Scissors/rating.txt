@@ -2,3 +2,8 @@ Tim 350
 Jane 200
 Alex 400
 Nidio 200
+rock,gun,lightning,devil,dragon,water,air,paper,sponge,wolf,tree,human,snake,scissors,fire 150
+nidio 50
+Palpatine 0
+nidio 50
+nidio 50
