@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="232343c1-6510-43b2-8a59-00ee5dc2eb0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock-Paper-Scissors/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock-Paper-Scissors/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock-Paper-Scissors/rating.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rock-Paper-Scissors/rating.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../descubra-o-python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -38,7 +40,7 @@
       <recent name="C:\Users\nidio\Documents\GitHub\JetBrainsAcademy\Hangman" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.coffee_machine">
+  <component name="RunManager" selected="Python.game">
     <configuration name="coffee_machine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JetBrainsAcademy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,6 +55,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coffee Machine/coffee_machine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JetBrainsAcademy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rock-Paper-Scissors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rock-Paper-Scissors/game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.game" />
         <item itemvalue="Python.coffee_machine" />
         <item itemvalue="Python.hello_world" />
       </list>
@@ -105,6 +130,7 @@
       <workItem from="1582892933677" duration="16000" />
       <workItem from="1583872228457" duration="103000" />
       <workItem from="1583872384631" duration="32000" />
+      <workItem from="1584488634026" duration="2187000" />
     </task>
     <servers />
   </component>
@@ -117,30 +143,30 @@
     </state>
     <state x="-583" y="227" key="FileChooserDialogImpl/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1583872415106" />
     <state x="1220" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582743976460" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1582836419068">
-      <screen x="-1600" y="0" width="1600" height="860" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584490013229">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1582836419068" />
     <state width="938" height="284" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1582483763521" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582744406249" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1582836419068">
-      <screen x="-1600" y="0" width="1600" height="860" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584490013229" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584490013229">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.center/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1582836419068" />
     <state width="938" height="284" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1582483763521" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582744406249" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1582836419068">
-      <screen x="-1600" y="0" width="1600" height="860" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584490013229" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584490013229">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.left/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1582836419068" />
     <state width="938" height="284" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1582483763521" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582744406249" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1582836419068">
-      <screen x="-1600" y="0" width="1600" height="860" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584490013229" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584490013229">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.right/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1582836419068" />
     <state width="938" height="284" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1582483763521" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582744406249" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584490013229" />
     <state x="-998" y="134" key="SettingsEditor" timestamp="1582831883208">
       <screen x="-1600" y="0" width="1600" height="860" />
     </state>
@@ -163,5 +189,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JetBrainsAcademy$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1582743887782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/JetBrainsAcademy$coffee_machine.coverage" NAME="coffee_machine Coverage Results" MODIFIED="1582831886964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coffee Machine" />
+    <SUITE FILE_PATH="coverage/JetBrainsAcademy$game.coverage" NAME="game Coverage Results" MODIFIED="1584490013220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Rock-Paper-Scissors" />
   </component>
 </project>

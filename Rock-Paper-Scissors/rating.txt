@@ -7,3 +7,6 @@ nidio 50
 Palpatine 0
 nidio 50
 nidio 50
+ni 250
+ni 250
+ni 250
