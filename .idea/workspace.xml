@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="232343c1-6510-43b2-8a59-00ee5dc2eb0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Text-Based Browser/browser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +31,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/descubra-o-python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Text-Based Browser" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nidio\PycharmProjects\JetBrainsAcademy\Text-Based Browser" />
       <recent name="C:\Users\nidio\Documents\GitHub\JetBrainsAcademy\Credit Calculator" />
       <recent name="C:\Users\nidio\Documents\GitHub\JetBrainsAcademy\Hangman" />
     </key>
@@ -131,6 +134,7 @@
       <workItem from="1584488634026" duration="2960000" />
       <workItem from="1584740892355" duration="10000" />
       <workItem from="1584741043103" duration="43000" />
+      <workItem from="1584802812617" duration="1378000" />
     </task>
     <servers />
   </component>
