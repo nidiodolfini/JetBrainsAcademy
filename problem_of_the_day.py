@@ -1,9 +1,14 @@
-Belov = ["Physics", "Math", "Russian"]
-Smith = ["Math", "Geometry", "English"]
-Sarada = ["Japanese", "Math", "Physics"]
+class Book:
+    def __init__(self, author, title, price, book_id):
+        self.author = author
+        self.title = title
+        self.price = price
+        self.book_id = book_id
 
-teste = Belov
-teste += Smith
-teste += Sarada
+    # define the necessary method here
+    def __repr__(self):
+        # {title} by {author}. ${price}. [{book_id}]
+        return f'{self.title} by {self.author}. ${self.price}. {self.book_id}'
 
-print(len(sorted(set(teste))))
+livro = Book('raul', 'meu pau', 11, 321321)
+print(livro)
